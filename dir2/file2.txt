@@ -1,5 +1,7 @@
 Nono arquivo adicionado
 comando para criar arquivo no powershell New-item file.txt ItemType file
 touch file.txt
-mkdir root/dir/file
+mkdir dir/subdir
 mkdir dir1 dir2 dir3
+mkdir -p projeto/teste && touch projeto/teste/app.py
+touch file1.txt file2.txt
