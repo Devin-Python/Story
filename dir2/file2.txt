@@ -1,0 +1,5 @@
+Nono arquivo adicionado
+comando para criar arquivo no powershell New-item file.txt ItemType file
+touch file.txt
+mkdir root/dir/file
+mkdir dir1 dir2 dir3
