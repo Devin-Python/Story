@@ -1,7 +1,39 @@
-Nono arquivo adicionado
-comando para criar arquivo no powershell New-item file.txt ItemType file
-touch file.txt
-mkdir dir/subdir
-mkdir dir1 dir2 dir3
-mkdir -p projeto/teste && touch projeto/teste/app.py
-touch file1.txt file2.txt
+Criação de arquivos atraves do prompt
+comando para criar arquivo no powershell:
+    New-item file.txt ItemType file
+
+// Criação de diretorio no terminal bash:
+    mkdir dir
+    mkdir dir1 dir2 dir3
+    mkdir -p projeto/teste && touch projeto/teste/app.py
+
+// Criando arquivos:
+    touch file.txt
+    touch file1.txt file2.txt
+    touch file{1..3}.txt
+    touch relatorio_{jan,fev,mar,abr}.txt
+
+// Comandos git:
+    git init
+    git add . // envia todos os arquivos para commit
+    git add filename // enviar somente um arquivo para commit
+    git commit -m "initial commit"
+    git commit -am "patch data"
+    git branch
+    git branch -M main
+    git checkout filename
+    git restore --staged filename // para volta o arquivo da stage area
+    depois 
+    git restore filename
+    git diff filename
+    git log
+    git status
+
+// Para subir a aplicação para o GitHub
+    git remote add origin http://path.url.git
+// Depois para enviar os arquivo
+    git push -u origin main // esse commando e dado dessa forma somente no primeiro envio
+// Se já tiver feito isso antes, basta:
+    git add .
+    git commit -m "mensagem"
+    git push
