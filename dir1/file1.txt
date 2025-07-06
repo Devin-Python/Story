@@ -1,0 +1,2 @@
+Texto add como parte do teste da aula em javascript:
+- vamos utilizar os comandos git para sub nossa aplicação de teste
